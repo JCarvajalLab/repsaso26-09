@@ -24,16 +24,17 @@
         <link
             href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
             rel="stylesheet" type="text/css" />
-
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
         <title>Document</title>
     </head>
 
     <body>
         <!-- NAV -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNav"
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,7 +63,7 @@
                 </ul>
             </div>
         </nav>
-        
+
         <!-- Secciones -->
         <section>
             <div class="container">
@@ -84,31 +85,53 @@
 
                 <div class="row gutters">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="card m-0"></div>
-                        <div class="row no-gutters">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
-                                <divc class="user-container">
-                                    <div class="chat-search-box">
-                                        <div class="input-group">
-                                            <input class="form-control" placeholder="Search">
-                                            <div class="input-group-btn">
-                                                <button type="button" class="btn btn-info">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
+                        <div class="card m-0">
+                            <div class="row no-gutters">
+                                <div
+                                    class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
+                                    <div class="user-container">
+                                        <div class="chat-search-box">
+                                            <div class="input-group">
+                                                <input class="form-control"
+                                                    placeholder="Buscar">
+                                                <div class="input-group-btn">
+                                                    <button type="button"
+                                                        class="btn btn-info">
+                                                        <i
+                                                            class="fa fa-search"></i>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
+                                        <ul class="users">
+                                            <li class="person"
+                                                data-chat="person1">
+                                                <div class="user">
+                                                    <img src alt="Retail admin">
+                                                    <span
+                                                        class="status busy"></span>
+                                                </div>
+                                                <p class="name-time">
+                                                    <span
+                                                        class="name">Rafaela</span>
+                                                    <span
+                                                        class="time">26/09/2024</span>
+                                                </p>
+                                            </li>
+
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/.container-->
-        </section>
+                <!--/.container-->
+            </section>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                integrity="sha384-QJHXA4xXhqF7uXA6mjQ4+NHqoJXyJqVBhF2ejxRlqyb/zftqyTz5xXFxCQVlOnx"
+                crossorigin="anonymous"></script>
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-QJHXA4xXhqF7uXA6mjQ4+NHqoJXyJqVBhF2ejxRlqyb/zftqyTz5xXFxCQVlOnx" crossorigin="anonymous"></script>
-
-    </body>
-</html>
+        </body>
+    </html>
